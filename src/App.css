@@ -1,0 +1,64 @@
+.boardRow{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+
+}
+
+.boardRow1{
+  border-bottom: 1px solid rgb(167, 167, 255);
+
+}
+
+.squareContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  /*border: 1px solid;*/
+
+
+}
+
+.borderRight{
+  border-right: 1px solid rgb(174, 174, 255);
+  
+}
+
+.outeContainer{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+
+  
+}
+
+.boardContainer{
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+div .boardRow .borderRight:nth-child(3) {
+  border-right: none;
+}
+        
+.maintext{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Copperplate, Papyrus, fantasy;
+  font-weight: bolder;
+}
+
+h2 .endText{
+
+  margin-top: 300px;
+  margin-left: 500px;
+  font-size: 35px;
+  color: red;
+}
